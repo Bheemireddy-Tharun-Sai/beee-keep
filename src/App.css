@@ -1,0 +1,29 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .app-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 240px;
+    background-color: #242424;
+    color: #fff;
+    overflow-y: auto;
+    position: fixed;
+    height: 100%;
+  }
+  
+  .content {
+    margin-left: 240px; /* Matches the width of the sidebar */
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #1a1a1a;
+  }
+  

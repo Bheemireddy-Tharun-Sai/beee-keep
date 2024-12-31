@@ -1,0 +1,124 @@
+/* HiveMap.css */
+
+/* Background colors */
+.bg-dark {
+    background-color: #242424;
+  }
+  
+  .bg-darker {
+    background-color: #1a1a1a;
+  }
+  
+  .bg-green-500 {
+    background-color: #10b981;
+  }
+  
+  .bg-yellow-500 {
+    background-color: #f59e0b;
+  }
+  
+  .bg-red-500 {
+    background-color: #ef4444;
+  }
+  
+  /* Padding */
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  
+  /* Margins */
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Border radius */
+  .rounded-xl {
+    border-radius: 1rem;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .rounded-full {
+    border-radius: 50%;
+  }
+  
+  /* Text styles */
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  /* Flexbox utilities */
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .gap-2 {
+    gap: 0.5rem;
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  /* Width and height */
+  .w-3 {
+    width: 0.75rem;
+  }
+  
+  .h-3 {
+    height: 0.75rem;
+  }
+  
+  .w-4 {
+    width: 1rem;
+  }
+  
+  .h-4 {
+    height: 1rem;
+  }
+  
+  /* Positioning */
+  .relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .bottom-4 {
+    bottom: 1rem;
+  }
+  
+  .left-4 {
+    left: 1rem;
+  }
+  

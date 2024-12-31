@@ -1,0 +1,126 @@
+/* General Support Container Styling */
+.support-container {
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Title Styling */
+  .support-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Grid Layout */
+  .support-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Card Styling */
+  .support-card {
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .support-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Icon Styling */
+  .support-icon {
+    width: 40px;
+    height: 40px;
+    color: #f59e42; /* Amber */
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .support-card:hover .support-icon {
+    color: #f39c12; /* Darker Amber */
+  }
+  
+  /* Card Title Styling */
+  .support-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  /* Description Styling */
+  .support-card-description {
+    font-size: 1rem;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styling */
+  .support-btn {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .support-btn:hover {
+    background-color: #f59e42; /* Amber */
+  }
+  
+  /* Social Media Section */
+  .social-media {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    color: #f59e42;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #f39c12;
+  }
+  
+  /* Live Chat and Ticketing Section */
+  .live-chat, .ticketing-system {
+    margin-top: 40px;
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .live-chat:hover, .ticketing-system:hover {
+    background-color: #1a1a1a;
+  }
+  
+  /* Section Title for Social Media, Live Chat, and Ticketing */
+  .section-title {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  
